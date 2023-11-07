@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background-color: #000;
+    padding-right: 10px;
+}
+
+.logo {
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu {
+    display: inline;
+    float: right;
+}
+
+.menu-nav {
+    display: inline;
+}
+
+.ul-nav {
+    display: inline;
+}
+
+.ul-nav li {
+    display: inline;
+    text-transform: uppercase;
+
+}
+
+.ul-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: -200px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+
+
+.products {
+    margin: 10px;
+    text-align: center;
+}
+
+.box-product {
+    height: 400px;
+    width: 250px;
+    margin-right: 40px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px 10px #D3D3D3;
+
+
+}
+
+.box-products {
+    height: 400px;
+    width: 250px;
+    margin-right: 40px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px 10px #D3D3D3;
+    border: 1px solid red;
+
+
+}
+
+.label-new {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px 5px;
+    box-shadow: 1px;
+    background-color: #16a085;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    float: left;
+    
+
+}
+
+.label-reduction {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px 5px;
+    box-shadow: 1px;
+    background-color: #ed1c24;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    float: right;
+}
+
+.img-product {
+    height: 300px;
+    width: 250px;
+}
+
+.actions {
+    text-align: center;
+}
+
+.price {
+    color: #16a085;
+    font-weight: bold;
+}
+
+.old-price {
+    color: grey;
+    font-size: 12px;
+}
+
+.btn-action {
+    padding: 5px 5px;
+    color: gray;
+    font-weight: bold;
+    background-color: white;
+    border: 1px #edd3d3 solid;
+}
+
+.btn-action:hover {
+    padding: 5px 5px;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+}
+
+.mb-5 {
+    margin: 5px;
+}
